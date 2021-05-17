@@ -1,0 +1,149 @@
+{
+  "preParticles": 0,
+  "integrationType": "EULER",
+  "emitters": [
+    {
+      "id": "b27df8b0-b18c-11eb-a046-9d24321db48f",
+      "totalEmitTimes": null,
+      "life": null,
+      "cache": { "totalEmitTimes": null, "life": null },
+      "rate": {
+        "particlesMin": 1,
+        "particlesMax": 2,
+        "perSecondMin": 0.01,
+        "perSecondMax": 0.02
+      },
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "initializers": [
+        {
+          "id": "b27df8b1-b18c-11eb-a046-9d24321db48f",
+          "type": "Mass",
+          "properties": { "min": 10, "max": 10, "isEnabled": true }
+        },
+        {
+          "id": "b27df8b2-b18c-11eb-a046-9d24321db48f",
+          "type": "Life",
+          "properties": { "min": 2, "max": 4, "isEnabled": true }
+        },
+        {
+          "id": "b27df8b3-b18c-11eb-a046-9d24321db48f",
+          "type": "BodySprite",
+          "properties": {
+            "texture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJkSURBVHjaxJeJbusgEEW94S1L//83X18M2MSuLd2pbqc4wZGqRLrKBsyZhQHny7Jk73xVL8xpVhWrcmiB5lX+6GJ5YgQ2owbAm8oIwH1VgKZUmGcRqKGGPgtEQQAzGR8hQ59fAmhJHSAagigJ4E7GPWRXOYC6owAd1JM6wDQPADyMWUqZRMqmAojHp1Vn6EQQEgUNMJLnUjMyJsM49wygBkAPw9dVFwXRkncCIIW3GRgoTQUZn6HxCMAFEFd8TwEQ78X4rHbILoAUmeT+RFG4UhQ6MiIAE4W/UsYFjuVjAIa2nIY4q1R0GFtQWG3E84lqw2GO2QOoCKBVu0BAPgDSU0eUDjjQenNkV/AW/pWChhpMTelo1a64AOKM30vk18GzTHXCNtI/Knz3DFBgsUqBGIjTInXRY1yA9xkVoqW5tVq3pDR9A0hfF5BSARmVnh7RMDCaIdcNgbPBkgzn1Bu+SfIEFSpSBmkxyrMicb0fAEuCZrWnN89veA/4XcakrPcjBWzkTuLjlbfTQPOlBhz+HwkqqPXmPQDdrQItxE1moGof1S74j/8txk8EHhTQrAE8qlwfqS5yukm1x/rAJ9Jiaa6nyATqD78aUVBhFo8b1V4DdTXdCW+IxA1zB4JhiOhZMEWO1HqnvdoHZ4FAMIhV9REF8FiUm0jsYPEJx/Fm/N8OhH90HI9YRHesWbXXZwAShU8qThe7H8YAuJmw5yOd989uRINKRTJAhoF8jbqrHKfeCYdIISZfSq26bk/K+yO3YvfKrVgiwQBHnwt8ynPB25+M8hceTt/ybPhnryJ78+tLgAEAuCFyiQgQB30AAAAASUVORK5CYII=",
+            "isEnabled": true
+          }
+        },
+        {
+          "id": "b27df8b4-b18c-11eb-a046-9d24321db48f",
+          "type": "Radius",
+          "properties": { "width": 5, "height": 5, "isEnabled": true }
+        },
+        {
+          "id": "b27df8b5-b18c-11eb-a046-9d24321db48f",
+          "type": "RadialVelocity",
+          "properties": {
+            "radius": 2,
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0,
+            "theta": 100,
+            "isEnabled": true
+          }
+        }
+      ],
+      "behaviours": [
+        {
+          "id": "b27df8b6-b18c-11eb-a046-9d24321db48f",
+          "type": "Alpha",
+          "properties": {
+            "alphaA": 1,
+            "alphaB": 0,
+            "life": null,
+            "easing": "easeLinear"
+          }
+        },
+        {
+          "id": "b27df8b7-b18c-11eb-a046-9d24321db48f",
+          "type": "Color",
+          "properties": {
+            "colorA": "#4F1500",
+            "colorB": "#0029FF",
+            "life": null,
+            "easing": "easeLinear"
+          }
+        },
+        {
+          "id": "b27df8b8-b18c-11eb-a046-9d24321db48f",
+          "type": "Scale",
+          "properties": {
+            "scaleA": 0.2,
+            "scaleB": 0.1,
+            "life": null,
+            "easing": "easeLinear"
+          }
+        },
+        {
+          "id": "b27df8b9-b18c-11eb-a046-9d24321db48f",
+          "type": "Force",
+          "properties": {
+            "fx": 0,
+            "fy": 0,
+            "fz": 0,
+            "life": null,
+            "easing": "easeLinear"
+          }
+        },
+        {
+          "id": "b27e1fc0-b18c-11eb-a046-9d24321db48f",
+          "type": "Rotate",
+          "properties": {
+            "x": 10,
+            "y": 10,
+            "z": 10,
+            "life": null,
+            "easing": "easeLinear"
+          }
+        },
+        {
+          "id": "b27e1fc1-b18c-11eb-a046-9d24321db48f",
+          "type": "RandomDrift",
+          "properties": {
+            "driftX": 5,
+            "driftY": 5,
+            "driftZ": 5,
+            "delay": 1,
+            "life": null,
+            "easing": "easeLinear"
+          }
+        },
+        {
+          "id": "b27e1fc2-b18c-11eb-a046-9d24321db48f",
+          "type": "Spring",
+          "properties": {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "spring": 0.2,
+            "friction": 0.5,
+            "life": null,
+            "easing": "easeLinear"
+          }
+        }
+      ],
+      "emitterBehaviours": [
+        {
+          "id": "b27e1fc3-b18c-11eb-a046-9d24321db48f",
+          "type": "Rotate",
+          "properties": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "life": null,
+            "easing": "easeLinear"
+          }
+        }
+      ]
+    }
+  ]
+}
